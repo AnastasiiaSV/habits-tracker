@@ -2,7 +2,7 @@ import { FunctionComponent, PropsWithChildren } from "react";
 
 import { StyledText } from "./text.styled";
 
-type TextSizeType = "normal" | "small" | "xsmall";
+type TextSizeType = "2xs" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
 
 interface TextProps {
   size?: TextSizeType;
@@ -10,7 +10,7 @@ interface TextProps {
 
 const Text: FunctionComponent<PropsWithChildren<TextProps>> = ({
   children,
-  size = "normal",
+  size = "md",
 }) => {
   return <StyledText size={size}>{children}</StyledText>;
 };
