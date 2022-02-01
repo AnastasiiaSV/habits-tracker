@@ -1,0 +1,252 @@
+{
+  "global": {
+    "name": "Physician App"
+  },
+  "messages": {
+    "inactivity": "You haven’t used Suki for an hour, so to help with security we’ve signed you out."
+  },
+  "datePicker": {
+    "daysOfWeek": [
+      { "name": "Sunday", "abbr": "Sun" },
+      { "name": "Monday", "abbr": "Mon" },
+      { "name": "Tuesday", "abbr": "Tue" },
+      { "name": "Wednesday", "abbr": "Wed" },
+      { "name": "Thursday", "abbr": "Thu" },
+      { "name": "Friday", "abbr": "Fri" },
+      { "name": "Saturday", "abbr": "Sat" }
+    ],
+    "months": [
+      { "name": "January", "abbr": "Jan" },
+      { "name": "February", "abbr": "Feb" },
+      { "name": "March", "abbr": "Mar" },
+      { "name": "April", "abbr": "Apr" },
+      { "name": "May", "abbr": "May" },
+      { "name": "June", "abbr": "Jun" },
+      { "name": "July", "abbr": "Jul" },
+      { "name": "August", "abbr": "Aug" },
+      { "name": "September", "abbr": "Sep" },
+      { "name": "October", "abbr": "Oct" },
+      { "name": "November", "abbr": "Nov" },
+      { "name": "December", "abbr": "Dec" }
+    ]
+  },
+  "emrConnectionToolbar": {
+    "title": "Not connected to your EMR.",
+    "button": "Try connecting"
+  },
+  "modals": {
+    "whatCanISay": {
+      "title": "What can I say?",
+      "subtitle": "You can also say \"Suki...",
+      "options": [
+        "Show my schedule",
+        "Show my list",
+        "Create a <note type>",
+        "Create a note",
+        "Go to unfinished notes",
+        "Log out",
+        "Help",
+        "Go back",
+        "Go home",
+        "Go to settings",
+        "Show my scripts",
+        "Show my note types"
+      ],
+      "noteOptions": [
+        "<section name>",
+        "Undo / scratch that",
+        "Stop",
+        "I'm done",
+        "Print note",
+        "Delete note",
+        "Insert <script name>",
+        "Change <field name>",
+        "Copy forward <section name>",
+        "Patient name is <patient name>"
+      ],
+      "embedOptions": [
+        "<section name>",
+        "Stop",
+        "Show my scripts",
+        "Insert <script name>",
+        "Change <field name>",
+        "Undo",
+        "Copy forward <section name>"
+      ],
+      "goToHelp": "Go to help center"
+    },
+    "whichNoteType": {
+      "title": "Which note type?"
+    },
+    "emrSignIn": {
+      "title": "EMR Sign-In",
+      "message": "You’ll be redirected for a moment to sign into your EMR, then directed back.",
+      "skip": "SKIP",
+      "ok": "OK"
+    }
+  },
+  "components": {
+    "organisms": {
+      "profileMinimal": {
+        "mrn": "MRN"
+      }
+    },
+    "hamburgerMenu": {
+      "options": {
+        "home": "Home",
+        "unfinishedNotes": "Unfinished Notes",
+        "settings": "Settings",
+        "help": "Help",
+        "logOut": "Log Out"
+      }
+    }
+  },
+  "pages": {
+    "forgotPassword": {
+      "heading": "Forgot Password",
+      "message": "Please enter your Suki account email address, then check your email to finish resetting your password.",
+      "input": {
+        "placeholder": "Enter email address"
+      },
+      "button": "Reset Password",
+      "tip": "If the supplied email address is valid, you should receive an email shortly with instructions on resetting your password. If you did not receive an email and still require assistance, please contact support@suki.ai"
+    },
+    "help": {
+      "title": "Help",
+      "items": {
+        "find": {
+          "label": "Find answers.",
+          "text": "Check out the Suki Help Center for FAQs & tutorials."
+        },
+        "play": {
+          "label": "See an example.",
+          "text": "Watch how Suki can help you create notes."
+        },
+        "chat": {
+          "label": "Or chat with us.",
+          "text": "Message us if you cant find what you need above."
+        }
+      },
+      "serviceStatus": {
+        "label": "Service Status",
+        "status": {
+          "OK": "All System OK",
+          "DEGRADED": "Degraded Performance",
+          "PARTIAL_OUTAGE": "Partial Outage",
+          "MAJOR_OUTAGE": "Major Outage",
+          "MAINTENANCE": "Under Maintenance"
+        }
+      }
+    },
+    "patients": {
+      "title": "Patients",
+      "schedule": {
+        "title": "Schedule",
+        "emptyAppointment": "No appointments today."
+      },
+      "profile": {
+        "startProgress": "Start progress note",
+        "todaysNotes": "Today’s Notes",
+        "priorNotes": "Prior Notes"
+      },
+      "list": {
+        "title": "List",
+        "addPatient": "Add Patient",
+        "emptyPatientList": {
+          "text1": "Add Patients to your list to create notes for them.",
+          "text2": "Remove them when you no longer treat them."
+        }
+      }
+    },
+    "pageNotFound": {
+      "heading": "Sorry",
+      "message": "We couldn’t find that page."
+    },
+    "login": {
+      "button": "Log In",
+      "input": {
+        "email": {
+          "placeholder": "Enter email address"
+        },
+        "password": {
+          "placeholder": "Enter password"
+        }
+      },
+      "forgotPassword": "Forgot Password"
+    },
+    "introScreen1": {
+      "heading": "Tap here to wake Suki",
+      "description": "Suki only listens when awake."
+    },
+    "introScreen2": {
+      "heading": "Hello, I’m Suki.",
+      "description": "To get started, here’s a brief video that shows how I can help you create a note.",
+      "buttons": {
+        "skip": "Skip",
+        "play": "Play Demo"
+      },
+      "video": {
+        "button": "Close"
+      }
+    },
+    "gettingStarted": {
+      "heading": "Getting Started",
+      "description": "Try these actions or voice commands"
+    },
+    "windowsDownload": {
+      "top": {
+        "heading1": "Download the",
+        "heading2": "Suki Assistant Windows app",
+        "description": "The Suki Assistant Windows app lets you use the intelligence of Suki to dictate in any field or application on a Windows computer. Download the latest version now.",
+        "button": "Download"
+      },
+      "left": {
+        "heading": "Whatʼs new in this version?",
+        "versionLabel": "Version:",
+        "version": "1.1.0",
+        "dateLabel": "Date:",
+        "date": "12/15/2021",
+        "versionLabel2": "Version:"
+      },
+      "right": {
+        "heading1": "Release notes",
+        "description1": "This release introduces voice commands to the Suki Windows app. With this update, in addition to dictation, you can now use your Suki scripts in any application on a Windows computer.",
+        "heading2": "With this release, you can:",
+        "description2part1": "Say the following Suki commands:",
+        "ul": {
+          "li1": "Suki undo",
+          "li2": "Suki insert <script name>",
+          "li3": "Suki stop"
+        },
+        "description2part2": "See an animation and hear an audio tone that confirm when Suki has understood a command",
+        "description2part3": "As a first-time Suki user, login to the Windows app directly, even if you've never used another Suki application",
+        "heading3": "Known issues",
+        "description3": "Dictating “next line” or “next paragraph” does not work on the Assessment and Plan screen in the Athena EHR"
+      }
+    },
+    "registerSuccess": {
+      "top": {
+        "heading1": "Congratulations!",
+        "heading2": "Your account has been successfully created. You’re ready to start using Suki Assistant to save time on administrative tasks.",
+        "heading3": "Start using Suki now on:"
+      },
+      "section1": {
+        "heading": "Mobile",
+        "description": "Use anywhere with an internet connection.",
+        "button1": "iOS",
+        "button2": "Android"
+      },
+      "section2": {
+        "heading": "Web",
+        "description": "Full Assistant experience in a larger form factor.",
+        "button": "Web"
+      },
+      "section3": {
+        "heading": "Windows",
+        "description": "Dictation in any application.",
+        "button": "Windows"
+      },
+      "footerText": "The Suki name and logo are trademarks of Suki AI, Inc. All other trademarks are the property of their respective owners. © 2021 Suki AI, Inc."
+    }
+  }
+}
